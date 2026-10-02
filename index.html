@@ -29,29 +29,31 @@ header{background:linear-gradient(135deg,#1dbf73,#0e9e5a);color:#fff;padding:90p
 .project .img{height:210px;display:flex;align-items:center;justify-content:center;font-size:65px;color:#fff}
 .project .info{padding:22px}
 #darkBtn{position:fixed;top:20px;left:20px;background:var(--card);border:none;width:48px;height:48px;border-radius:50%;cursor:pointer;font-size:22px;box-shadow:0 4px 12px rgba(0,0,0,.15);z-index:99}
+#langBtn{position:fixed;top:20px;right:20px;background:var(--card);border:none;padding:10px 16px;border-radius:50px;cursor:pointer;font-weight:800;box-shadow:0 4px 12px rgba(0,0,0,.15);z-index:99}
 </style>
 </head>
 <body>
 <button id="darkBtn" aria-label="toggle dark mode" onclick="toggleDark()">🌙</button>
+<button id="langBtn" onclick="toggleLang()">EN</button>
 <header>
-<h1>موقعك هو اللي بيبيع</h1>
-<p>أصمم لك موقع سريع واحترافي يخلي العميل يثق فيك ويطلب فوراً</p>
+<h1 data-ar="موقعك هو اللي بيبيع" data-en="Your Website Sells">موقعك هو اللي بيبيع</h1>
+<p data-ar="أصمم لك موقع سريع واحترافي يخلي العميل يثق فيك ويطلب فوراً" data-en="I design fast, professional websites that build trust and get orders">أصمم لك موقع سريع واحترافي يخلي العميل يثق فيك ويطلب فوراً</p>
 <a href="https://wa.me/201026796723" target="_blank" rel="noopener" class="btn">واتساب: 01026796723</a>
 </header>
 <div class="container">
 <div class="card">
-<h2>أحول فكرتك لموقع يجيب عملاء</h2>
-<p>أنا مصطفى، مطور HTML/CSS/JS بكود نظيف بدون ووردبريس. موقعك سريع، متجاوب 100% مع الموبايل، وجاهز للبيع في 24 ساعة.</p>
+<h2 data-ar="أحول فكرتك لموقع يجيب عملاء" data-en="I turn your idea into a client-getting website">أحول فكرتك لموقع يجيب عملاء</h2>
+<p data-ar="أنا مصطفى، مطور HTML/CSS/JS بكود نظيف بدون ووردبريس. موقعك سريع، متجاوب 100% مع الموبايل، وجاهز للبيع في 24 ساعة." data-en="I'm Mostafa, HTML/CSS/JS developer with clean code, no WordPress. Fast, 100% responsive, ready to sell in 24h.">أنا مصطفى، مطور HTML/CSS/JS بكود نظيف بدون ووردبريس. موقعك سريع، متجاوب 100% مع الموبايل، وجاهز للبيع في 24 ساعة.</p>
 </div>
-<h2 style="text-align:center;margin:60px 0 20px;font-weight:800;font-size:30px">معرض أعمالي - لايف</h2>
+<h2 style="text-align:center;margin:60px 0 20px;font-weight:800;font-size:30px" data-ar="معرض أعمالي - لايف" data-en="My Portfolio - Live">معرض أعمالي - لايف</h2>
 <div class="portfolio">
-<div class="project"><div class="img" style="background:linear-gradient(135deg,#00c6ff,#0072ff)">🛒</div><div class="info"><h3>1. متجر إلكتروني</h3><p>Tech Store - متجر كامل وسريع</p><a href="https://mms805136-design.github.io/tech-store/" target="_blank" rel="noopener" class="btn-dark">🔗 معاينة لايف</a></div></div>
-<div class="project"><div class="img" style="background:linear-gradient(135deg,#11998e,#38ef7d)">🏢</div><div class="info"><h3>2. موقع شركة</h3><p>Company Website - احترافي</p><a href="https://mms805136-design.github.io/company-website/" target="_blank" rel="noopener" class="btn-dark">🔗 معاينة لايف</a></div></div>
-<div class="project"><div class="img" style="background:linear-gradient(135deg,#ff6a00,#ee0979)">🚀</div><div class="info"><h3>3. صفحة هبوط</h3><p>Landing Page - مصممة لزيادة المبيعات</p><a href="https://mms805136-design.github.io/-landing-page/" target="_blank" rel="noopener" class="btn-dark">🔗 معاينة لايف</a></div></div>
-<div class="project" style="border:2px solid #0d47a1"><div class="img" style="background:linear-gradient(135deg,#0d47a1,#1976d2)">📚</div><div class="info"><h3>4. مكتبة أحمد للطباعة</h3><p>موقع مكتبة - طباعة كتب ومجلات نفيشة الإسماعيلية</p><a href="https://mms805136-design.github.io/Maktapt-Ahmed.-/" target="_blank" rel="noopener" class="btn-dark" style="background:#0d47a1">🔗 معاينة لايف</a></div></div>
+<div class="project"><div class="img" style="background:linear-gradient(135deg,#00c6ff,#0072ff)">🛒</div><div class="info"><h3 data-ar="1. متجر إلكتروني" data-en="1. E-commerce Store">1. متجر إلكتروني</h3><p data-ar="Tech Store - متجر كامل وسريع" data-en="Tech Store - Complete & Fast">Tech Store - متجر كامل وسريع</p><a href="https://mms805136-design.github.io/tech-store/" target="_blank" rel="noopener" class="btn-dark">🔗 <span data-ar="معاينة لايف" data-en="Live Preview">معاينة لايف</span></a></div></div>
+<div class="project"><div class="img" style="background:linear-gradient(135deg,#11998e,#38ef7d)">🏢</div><div class="info"><h3 data-ar="2. موقع شركة" data-en="2. Company Website">2. موقع شركة</h3><p data-ar="Company Website - احترافي" data-en="Company Website - Professional">Company Website - احترافي</p><a href="https://mms805136-design.github.io/company-website/" target="_blank" rel="noopener" class="btn-dark">🔗 <span data-ar="معاينة لايف" data-en="Live Preview">معاينة لايف</span></a></div></div>
+<div class="project"><div class="img" style="background:linear-gradient(135deg,#ff6a00,#ee0979)">🚀</div><div class="info"><h3 data-ar="3. صفحة هبوط" data-en="3. Landing Page">3. صفحة هبوط</h3><p data-ar="Landing Page - مصممة لزيادة المبيعات" data-en="Landing Page - Built to increase sales">Landing Page - مصممة لزيادة المبيعات</p><a href="https://mms805136-design.github.io/-landing-page/" target="_blank" rel="noopener" class="btn-dark">🔗 <span data-ar="معاينة لايف" data-en="Live Preview">معاينة لايف</span></a></div></div>
+<div class="project" style="border:2px solid #0d47a1"><div class="img" style="background:linear-gradient(135deg,#0d47a1,#1976d2)">📚</div><div class="info"><h3 data-ar="4. مكتبة أحمد للطباعة" data-en="4. Ahmed Library">4. مكتبة أحمد للطباعة</h3><p data-ar="موقع مكتبة - طباعة كتب ومجلات نفيشة الإسماعيلية" data-en="Library Website - Books & Magazines Printing">موقع مكتبة - طباعة كتب ومجلات نفيشة الإسماعيلية</p><a href="https://mms805136-design.github.io/Maktapt-Ahmed.-/" target="_blank" rel="noopener" class="btn-dark" style="background:#0d47a1">🔗 <span data-ar="معاينة لايف" data-en="Live Preview">معاينة لايف</span></a></div></div>
 </div>
 <div style="background:var(--card);padding:35px;border-radius:20px;text-align:center;margin-top:50px;border:2px solid var(--main)">
-<h2>عايز واحد زيهم؟</h2><a href="https://wa.me/201026796723?text=عايز%20موقع%20زي%20معرض%20اعمالك" target="_blank" rel="noopener" class="btn-dark" style="font-size:18px;padding:14px 32px">كلمني الآن 01026796723</a>
+<h2 data-ar="عايز واحد زيهم؟" data-en="Want one like them?">عايز واحد زيهم؟</h2><a href="https://wa.me/201026796723?text=عايز%20موقع%20زي%20معرض%20اعمالك" target="_blank" rel="noopener" class="btn-dark" style="font-size:18px;padding:14px 32px" data-ar="كلمني الآن 01026796723" data-en="Contact me now">كلمني الآن 01026796723</a>
 </div>
 </div>
 <script>
@@ -61,6 +63,16 @@ function toggleDark(){
   document.getElementById('darkBtn').textContent=document.body.classList.contains('dark')?'☀️':'🌙'
 }
 if(localStorage.getItem('theme') === 'dark'){document.body.classList.add('dark');document.getElementById('darkBtn').textContent='☀️';}
+let currentLang = 'ar';
+function toggleLang(){
+  currentLang = currentLang === 'ar' ? 'en' : 'ar';
+  document.documentElement.lang = currentLang;
+  document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+  document.getElementById('langBtn').textContent = currentLang === 'ar' ? 'EN' : 'عربي';
+  document.querySelectorAll('[data-ar]').forEach(el=>{
+    el.textContent = el.getAttribute('data-'+currentLang);
+  });
+}
 </script>
 </body>
-</html>
+                                                                                                                                                                                                                                                      </html>
